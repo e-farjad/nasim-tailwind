@@ -1,0 +1,131 @@
+
+header{
+    margin: 0 auto;
+}
+.nm{
+    margin-top: -40px;
+}
+.yellow{
+    color:#d09427;
+}
+.nv{
+    background: #fff url("https://nasimrezvan.com/p/img/bg1.b559fae.jpg");
+}
+.serviceItem{
+    background:#d09427;
+}
+.webItem{
+    color: #d09427;
+    border: 1px solid #d09427;
+}
+.slider-section{
+    background: url("https://nasimrezvan.com/p/img/02.2d71a81.jpg") no-repeat center;
+    background-size: cover;
+    object-fit: cover;
+    padding: 100px 0;
+    position: relative;
+}
+.activePage{
+   background: url("https://nasimrezvan.com/p/img/icon-bg.e0f1340.svg") no-repeat center;
+}
+.blur{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,162,198,0.75);
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index:0;
+}
+.seprator{
+    margin-top: -100px;
+    position: absolute;
+    width: 100%;
+    z-index: 3;
+}
+.links svg{
+    width: 24px;
+    height: 24px;
+}
+.bazar{
+    background: url(https://nasimrezvan.com/p/img/icons.83b34a8.png) no-repeat 0 -60px;
+    color: #5c8a69;
+    fill: #5c8a69;
+}
+.myket{
+    background: url(https://nasimrezvan.com/p/img/icons.83b34a8.png) no-repeat -200px -60px;
+    color: #029bae;
+    fill: #029bae;
+}
+.direct{
+    background: url(https://nasimrezvan.com/p/img/icons.83b34a8.png) no-repeat 0 -110px;
+    color:#d09427;
+    fill: #d09427;
+}
+.web{
+    background: url(https://nasimrezvan.com/p/img/icons.83b34a8.png) no-repeat -200px -110px;
+    color:#fff;
+    fill: #fff;
+}
+.btn{
+    width: 200px;
+    height: 50px;
+}
+.icon{
+    background: url(https://nasimrezvan.com/p/img/icon-bg.e0f1340.svg) no-repeat center;
+    width: 80px;
+    height: 80px;
+}
+.icon svg{
+    height: 32px ;
+    width: 32px;
+}
+.service{
+    background-color: #f4f7f8;
+    height: 230px;
+}
+.serviceSec2{
+    margin: 15px 10px;
+    margin-bottom: 35px;
+}
+footer{
+    background: url(https://nasimrezvan.com/p/img/footer_bg.7124792.png),linear-gradient(360deg,#4b6ec0 12.79%,#24489e 60.99%),#fff;
+    padding: 0 0 25px 0;
+    color: white;!important;
+}
+
+.before{
+    background: url(https://nasimrezvan.com/p/img/icons.83b34a8.png) no-repeat -60px 0 ;
+    width: 150px;
+    height:22px;
+    margin: 0 auto;
+}
+.after{
+    background: url(https://nasimrezvan.com/p/img/icons.83b34a8.png) no-repeat -60px -22px;
+    height:22px;
+    width: 150px;
+    margin: 0 auto;
+}
+.copy{
+    color: #937947;
+    background: #ffebc6;
+}
+.dashed{
+    border-bottom: dashed 1px white;
+}
+@media screen and (max-width: 960px) {
+    .webItem {
+       display: none;
+    }
+}
+@media screen and (max-width: 620px) {
+    .fa, .ar, .en {
+        display: none;
+    }
+}
+@media screen and (min-width: 620px) {
+    .fa {
+        display: flex;
+    }
+}
